@@ -1,7 +1,0 @@
----
-title: "Undisturbed_Regeneration"
----
-
-```{r}
-1 + 1
-```
