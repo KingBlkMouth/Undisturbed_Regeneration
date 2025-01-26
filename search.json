@@ -1,16 +1,51 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Undisturbed Regeneration",
+    "objectID": "Results.html",
+    "href": "Results.html",
+    "title": "Results",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nTesting website:"
+    "text": "Show Poster results and explain"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "Methods.html",
+    "href": "Methods.html",
+    "title": "Methods",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Not sure, but at least a simple breakdown of the Methods."
+  },
+  {
+    "objectID": "Background.html",
+    "href": "Background.html",
+    "title": "Background",
+    "section": "",
+    "text": "Development and iterations from Kralicek to current."
+  },
+  {
+    "objectID": "Home.html#literature",
+    "href": "Home.html#literature",
+    "title": "Contact Information:",
+    "section": "Literature",
+    "text": "Literature\n\nTreeMap,\nKralicek,\nRF,"
+  },
+  {
+    "objectID": "Home.html#data-software",
+    "href": "Home.html#data-software",
+    "title": "Contact Information:",
+    "section": "Data & Software",
+    "text": "Data & Software\n\nLANDFIRE,\nFIA,\nFVS,\nR-packages"
+  },
+  {
+    "objectID": "Home.html#images",
+    "href": "Home.html#images",
+    "title": "Contact Information:",
+    "section": "Images",
+    "text": "Images\n\nRaster Stack Image: UseR, Spatial workshop"
+  },
+  {
+    "objectID": "Poster.html",
+    "href": "Poster.html",
+    "title": "Poster",
+    "section": "",
+    "text": "This will just be the poster."
   }
 ]
