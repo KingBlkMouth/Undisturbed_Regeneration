@@ -2,9 +2,9 @@
   {
     "objectID": "Results.html",
     "href": "Results.html",
-    "title": "Results",
+    "title": "North Cascades",
     "section": "",
-    "text": "Show Poster results and explain"
+    "text": "ECO_NAME\nEcoRegion\n\n\n\n\n1\nN.Cascades\nM242D\n\n\n2\nW.Cascades\nM242B\n\n\n6\nPuget Tr.\n242A\n\n\n89\nE.Cascades\nM242C\n\n\n116\nColumbia B.\n342I\n\n\n160\nOk. High\nM333A\n\n\n\n\n\n\n\nNorth Cascades\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWest Cascades\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOkanogan Highlands\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEast Cascades\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPuget Trough\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nColumbia Basin"
   },
   {
     "objectID": "Methods.html",
@@ -25,27 +25,20 @@
     "href": "index.html#literature",
     "title": "Contact Information:",
     "section": "Literature",
-    "text": "Literature\n\nTreeMap,\nKralicek,\nRF,"
+    "text": "Literature\n\nTreeMap,\nKralicek,\nRF,\nCleland 2007"
   },
   {
     "objectID": "index.html#data-software",
     "href": "index.html#data-software",
     "title": "Contact Information:",
     "section": "Data & Software",
-    "text": "Data & Software\n\nLANDFIRE,\nFIA,\nFVS,\nR-packages"
-  },
-  {
-    "objectID": "index.html#images",
-    "href": "index.html#images",
-    "title": "Contact Information:",
-    "section": "Images",
-    "text": "Images\n\nRaster Stack Image: UseR, Spatial workshop"
+    "text": "Data & Software\n\nLANDFIRE,\nFIA,\nFVS,\nR-packages\nCleland Ecoregions in FS clearinghouse"
   },
   {
     "objectID": "Poster.html",
     "href": "Poster.html",
-    "title": "Poster",
+    "title": "FVS Regeneration with Imputation",
     "section": "",
-    "text": "This will just be the poster."
+    "text": "Poster"
   }
 ]
