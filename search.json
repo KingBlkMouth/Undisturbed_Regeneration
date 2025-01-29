@@ -7,53 +7,130 @@
     "text": "I will continue to add to this section leading up to the Symposium. If I can, I will add colors for each species."
   },
   {
-    "objectID": "Results.html#plots-with-or-without-regeneration",
-    "href": "Results.html#plots-with-or-without-regeneration",
+    "objectID": "Results.html#presence-of-regeneration",
+    "href": "Results.html#presence-of-regeneration",
     "title": "Forward",
-    "section": "Plots With or Without Regeneration",
-    "text": "Plots With or Without Regeneration\n\n\n\n\n\n\n\n\n\n\nOn the right, we can see that most species are present in very few plots. There were about twelve species with appreciably large representations in the data.\nThe species on the left do appear to match the most prevalent species on the right. This is because the most prevalent species list was taken from the full input data list. These charts only show data for the roughly 400 plots that yaImpute withheld for testing. Of the roughly 400 plots in the holdout set, about 325 had at least one seedling (Total) observed and slightly fewer were imputed to have at least one of any species."
+    "section": "Presence of Regeneration",
+    "text": "Presence of Regeneration\n\n\n\n\n\n\n\n\n\nThese charts only show data for the 408 plots that yaImpute withheld for testing. Of these plots in the holdout set, about 325 had at least one seedling (Total) observed. Slightly fewer were imputed to have at least one of any species. In general this model appears to well at detecting if regeneration should be imputed.\nWe can see that most species are present in very few plots. There were about 11 species with appreciably large representations in the data."
   },
   {
-    "objectID": "Results.html#variation-in-seedling-counts",
-    "href": "Results.html#variation-in-seedling-counts",
+    "objectID": "Results.html#variation-most-prevalent-species",
+    "href": "Results.html#variation-most-prevalent-species",
     "title": "Forward",
-    "section": "Variation in Seedling Counts",
-    "text": "Variation in Seedling Counts\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe graph on the right shows the same species as that on the left, but without filtering the extreme values. The 4 plots with counts exceeding 20,000 Trees per Acre were removed were removed to show variability in the majority of the data.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAgain, the plot on the right shows variability in seedling counts, but this time for all species. It is displayed mostly for the purpose of full disclosure. The plot on the left is the same, except the 4 high TPA plots were filtered out. The plot on the left shows somewhat mixed results. There are a few that appear to have relatively close distributions. However PICO, Lodgepole Pine, stands out with largest dependency between Imputed and Observed data."
+    "section": "Variation, Most Prevalent species",
+    "text": "Variation, Most Prevalent species\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe graph on the right shows the same set most prevalent species as that on the left, but without filtering the extreme values. The 4 plots with counts exceeding 20,000 Trees per Acre were removed were removed to show variability in the majority of the data.\nAt least in the major species, variability appears fairly consistent in this model. There is some concern regarding the outliers, but for now, this seems promosing."
   },
   {
-    "objectID": "Results.html#plots-with-or-without-regeneration-1",
-    "href": "Results.html#plots-with-or-without-regeneration-1",
+    "objectID": "Results.html#variation-all-species",
+    "href": "Results.html#variation-all-species",
     "title": "Forward",
-    "section": "Plots With or Without Regeneration",
-    "text": "Plots With or Without Regeneration"
+    "section": "Variation, All species",
+    "text": "Variation, All species\n\n\n\n\n\n\n\n\n\n\n\n\n\nAgain, these plots show variability in seedling counts, but this time for all species. The plot on the right is mostly useless. It is displayed mostly for the purpose of full disclosure regarding the outliers. The plot on the left is the same, except the 4 high TPA plots were filtered out.\nThe plot on the left shows somewhat mixed results. There are a few that appear to have relatively close distributions. However PICO, Lodgepole Pine, stands out with largest discrepancy between Imputed and Observed data. From Lodgepole Pine, and to the right, it can be seen that these models depend on a sufficiently large number of sample plots to make accurate predictions. In the data input into the model, Lodgepole was present on 108 plots. There were 38 reserved for testing, so 70 were used to train the model.\nIf the reader has any suggestions on how to deal with these data limitations, I would be very happy to hear from you."
   },
   {
-    "objectID": "Results.html#plots-with-or-without-regeneration-2",
-    "href": "Results.html#plots-with-or-without-regeneration-2",
+    "objectID": "Results.html#presence-of-regeneration-1",
+    "href": "Results.html#presence-of-regeneration-1",
     "title": "Forward",
-    "section": "Plots With or Without Regeneration",
-    "text": "Plots With or Without Regeneration"
+    "section": "Presence of Regeneration",
+    "text": "Presence of Regeneration"
   },
   {
-    "objectID": "Results.html#plots-with-or-without-regeneration-3",
-    "href": "Results.html#plots-with-or-without-regeneration-3",
+    "objectID": "Results.html#variation-most-prevalent-species-1",
+    "href": "Results.html#variation-most-prevalent-species-1",
     "title": "Forward",
-    "section": "Plots With or Without Regeneration",
-    "text": "Plots With or Without Regeneration"
+    "section": "Variation, Most Prevalent species",
+    "text": "Variation, Most Prevalent species"
   },
   {
-    "objectID": "Results.html#plots-with-or-without-regeneration-4",
-    "href": "Results.html#plots-with-or-without-regeneration-4",
+    "objectID": "Results.html#variation-all-species-1",
+    "href": "Results.html#variation-all-species-1",
     "title": "Forward",
-    "section": "Plots With or Without Regeneration",
-    "text": "Plots With or Without Regeneration"
+    "section": "Variation, All species",
+    "text": "Variation, All species"
   },
   {
-    "objectID": "Results.html#plots-with-or-without-regeneration-5",
-    "href": "Results.html#plots-with-or-without-regeneration-5",
+    "objectID": "Results.html#presence-of-regeneration-2",
+    "href": "Results.html#presence-of-regeneration-2",
     "title": "Forward",
-    "section": "Plots With or Without Regeneration",
-    "text": "Plots With or Without Regeneration"
+    "section": "Presence of Regeneration",
+    "text": "Presence of Regeneration"
+  },
+  {
+    "objectID": "Results.html#variation-most-prevalent-species-2",
+    "href": "Results.html#variation-most-prevalent-species-2",
+    "title": "Forward",
+    "section": "Variation, Most Prevalent species",
+    "text": "Variation, Most Prevalent species"
+  },
+  {
+    "objectID": "Results.html#variation-all-species-2",
+    "href": "Results.html#variation-all-species-2",
+    "title": "Forward",
+    "section": "Variation, All species",
+    "text": "Variation, All species"
+  },
+  {
+    "objectID": "Results.html#presence-of-regeneration-3",
+    "href": "Results.html#presence-of-regeneration-3",
+    "title": "Forward",
+    "section": "Presence of Regeneration",
+    "text": "Presence of Regeneration"
+  },
+  {
+    "objectID": "Results.html#variation-most-prevalent-species-3",
+    "href": "Results.html#variation-most-prevalent-species-3",
+    "title": "Forward",
+    "section": "Variation, Most Prevalent species",
+    "text": "Variation, Most Prevalent species"
+  },
+  {
+    "objectID": "Results.html#variation-all-species-3",
+    "href": "Results.html#variation-all-species-3",
+    "title": "Forward",
+    "section": "Variation, All species",
+    "text": "Variation, All species"
+  },
+  {
+    "objectID": "Results.html#presence-of-regeneration-4",
+    "href": "Results.html#presence-of-regeneration-4",
+    "title": "Forward",
+    "section": "Presence of Regeneration",
+    "text": "Presence of Regeneration"
+  },
+  {
+    "objectID": "Results.html#variation-most-prevalent-species-4",
+    "href": "Results.html#variation-most-prevalent-species-4",
+    "title": "Forward",
+    "section": "Variation, Most Prevalent species",
+    "text": "Variation, Most Prevalent species"
+  },
+  {
+    "objectID": "Results.html#variation-all-species-4",
+    "href": "Results.html#variation-all-species-4",
+    "title": "Forward",
+    "section": "Variation, All species",
+    "text": "Variation, All species"
+  },
+  {
+    "objectID": "Results.html#presence-of-regeneration-5",
+    "href": "Results.html#presence-of-regeneration-5",
+    "title": "Forward",
+    "section": "Presence of Regeneration",
+    "text": "Presence of Regeneration"
+  },
+  {
+    "objectID": "Results.html#variation-most-prevalent-species-5",
+    "href": "Results.html#variation-most-prevalent-species-5",
+    "title": "Forward",
+    "section": "Variation, Most Prevalent species",
+    "text": "Variation, Most Prevalent species"
+  },
+  {
+    "objectID": "Results.html#variation-all-species-5",
+    "href": "Results.html#variation-all-species-5",
+    "title": "Forward",
+    "section": "Variation, All species",
+    "text": "Variation, All species"
   },
   {
     "objectID": "Methods.html",
