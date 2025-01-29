@@ -11,7 +11,7 @@
     "href": "Results.html#plots-with-or-without-regeneration",
     "title": "Forward",
     "section": "Plots With or Without Regeneration",
-    "text": "Plots With or Without Regeneration\n\n\n\n\n\n\n\n\n\n\n\n\n\nOn the right, we can see that most species are present in very few plots. There were about twelve species with appreciably large representations in the data.\nThe species on the left do appear to match the most prevalent species on the right. This is because the most prevalent species list was taken from the full input data list. These charts only show data for the roughly 400 plots that yaImpute withheld for testing. Of the roughly 400 plots in the holdout set, about 325 had at least one seedling (Total) observed and slightly fewer were imputed to have at least one of any species."
+    "text": "Plots With or Without Regeneration\n\n\n\n\n\n\n\n\n\n\nOn the right, we can see that most species are present in very few plots. There were about twelve species with appreciably large representations in the data.\nThe species on the left do appear to match the most prevalent species on the right. This is because the most prevalent species list was taken from the full input data list. These charts only show data for the roughly 400 plots that yaImpute withheld for testing. Of the roughly 400 plots in the holdout set, about 325 had at least one seedling (Total) observed and slightly fewer were imputed to have at least one of any species."
   },
   {
     "objectID": "Results.html#variation-in-seedling-counts",
@@ -21,11 +21,46 @@
     "text": "Variation in Seedling Counts\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe graph on the right shows the same species as that on the left, but without filtering the extreme values. The 4 plots with counts exceeding 20,000 Trees per Acre were removed were removed to show variability in the majority of the data.\n\n\n\n\n\n\n\n\n\n\n\n\n\nAgain, the plot on the right shows variability in seedling counts, but this time for all species. It is displayed mostly for the purpose of full disclosure. The plot on the left is the same, except the 4 high TPA plots were filtered out. The plot on the left shows somewhat mixed results. There are a few that appear to have relatively close distributions. However PICO, Lodgepole Pine, stands out with largest dependency between Imputed and Observed data."
   },
   {
+    "objectID": "Results.html#plots-with-or-without-regeneration-1",
+    "href": "Results.html#plots-with-or-without-regeneration-1",
+    "title": "Forward",
+    "section": "Plots With or Without Regeneration",
+    "text": "Plots With or Without Regeneration"
+  },
+  {
+    "objectID": "Results.html#plots-with-or-without-regeneration-2",
+    "href": "Results.html#plots-with-or-without-regeneration-2",
+    "title": "Forward",
+    "section": "Plots With or Without Regeneration",
+    "text": "Plots With or Without Regeneration"
+  },
+  {
+    "objectID": "Results.html#plots-with-or-without-regeneration-3",
+    "href": "Results.html#plots-with-or-without-regeneration-3",
+    "title": "Forward",
+    "section": "Plots With or Without Regeneration",
+    "text": "Plots With or Without Regeneration"
+  },
+  {
+    "objectID": "Results.html#plots-with-or-without-regeneration-4",
+    "href": "Results.html#plots-with-or-without-regeneration-4",
+    "title": "Forward",
+    "section": "Plots With or Without Regeneration",
+    "text": "Plots With or Without Regeneration"
+  },
+  {
+    "objectID": "Results.html#plots-with-or-without-regeneration-5",
+    "href": "Results.html#plots-with-or-without-regeneration-5",
+    "title": "Forward",
+    "section": "Plots With or Without Regeneration",
+    "text": "Plots With or Without Regeneration"
+  },
+  {
     "objectID": "Methods.html",
     "href": "Methods.html",
     "title": "Methods",
     "section": "",
-    "text": "Not sure, but at least a simple breakdown of the Methods."
+    "text": "Not sure, but at least a simple breakdown of the Methods.\nNotes\n\nEcoregions have been created from the ecoregions in Cleland by removing the last charachter."
   },
   {
     "objectID": "Background.html",
@@ -37,16 +72,16 @@
   {
     "objectID": "index.html#literature",
     "href": "index.html#literature",
-    "title": "Contact Information:",
+    "title": "Achnowledgement",
     "section": "Literature",
     "text": "Literature\n\nTreeMap (Riley et al. 2021)\n\nTreeMap links Forest Inventory and Analysis (FIA) data to LANDFIRE pixels. This allows for FIA data to be used spatially.\n\nFuelMap (Riley, Grenfell, and Shaw 2023)\n\nFuelMap is a second iteration of TreeMap that focuses on imputing better fuel loadings. FIA plots do not always record fuels. A second imputation imparts more accurate fuel values to the TreeMap plots from other FIA plots that have recorded fuel.\n\nKralicek (Kralicek, Sánchez Meador, and Rathbun 2018)\n\nThis paper provided the framework we are building on. Kralicek and her team imputed regeneration using Nearest Neighbor methods from plots in OR & WA. We have adapted it in many ways. Most obviously, we are trying a Random Forest approach that focuses on the area around the Okanogan and Wenatchee Nationa Forests. Early testing indicated that Random Forests produced more accurate results. The results of those tests are not shown here.\n\nRandom Forests (Breiman 2001)\n\nFoundational paper on Random Forests.\n\nRandom Forest Imputation using yaImpute (Crookston and Finley 2008)\n\nPackage Documentation for the yaImpute package in R.\n\nEcoregions (Cleland et al. 2007)\n\nFIA uses these ecological delineations. We are using them to subset the model into regions. This limits the species from being imputed from far away."
   },
   {
-    "objectID": "index.html#data-software",
-    "href": "index.html#data-software",
-    "title": "Contact Information:",
-    "section": "Data & Software",
-    "text": "Data & Software\n\nLANDFIRE\nFIA, Forest Inventory and Analysis\nFVS, Forest Vegetation Simulator\nEcoregions, FSGeodata Clearinghouse:Ecological Sections\nFSIM"
+    "objectID": "index.html#links-to-data-software",
+    "href": "index.html#links-to-data-software",
+    "title": "Achnowledgement",
+    "section": "Links to Data & Software",
+    "text": "Links to Data & Software\n\nLANDFIRE\nFIA, Forest Inventory and Analysis\nFVS, Forest Vegetation Simulator\nEcoregions, FSGeodata Clearinghouse:Ecological Sections\nFSIM"
   },
   {
     "objectID": "Poster.html",
