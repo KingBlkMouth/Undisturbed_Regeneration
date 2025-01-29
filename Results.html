@@ -129,7 +129,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#north-cascades" id="toc-north-cascades" class="nav-link active" data-scroll-target="#north-cascades">North Cascades</a></li>
+  <li><a href="#forward" id="toc-forward" class="nav-link active" data-scroll-target="#forward">Forward</a></li>
+  <li><a href="#ecoregion-map" id="toc-ecoregion-map" class="nav-link" data-scroll-target="#ecoregion-map">EcoRegion Map</a></li>
+  <li><a href="#north-cascades" id="toc-north-cascades" class="nav-link" data-scroll-target="#north-cascades">North Cascades</a>
+  <ul class="collapse">
+  <li><a href="#plots-with-or-without-regeneration" id="toc-plots-with-or-without-regeneration" class="nav-link" data-scroll-target="#plots-with-or-without-regeneration">Plots With or Without Regeneration</a></li>
+  <li><a href="#variation-in-seedling-counts" id="toc-variation-in-seedling-counts" class="nav-link" data-scroll-target="#variation-in-seedling-counts">Variation in Seedling Counts</a></li>
+  </ul></li>
   <li><a href="#west-cascades" id="toc-west-cascades" class="nav-link" data-scroll-target="#west-cascades">West Cascades</a></li>
   <li><a href="#okanogan-highlands" id="toc-okanogan-highlands" class="nav-link" data-scroll-target="#okanogan-highlands">Okanogan Highlands</a></li>
   <li><a href="#east-cascades" id="toc-east-cascades" class="nav-link" data-scroll-target="#east-cascades">East Cascades</a></li>
@@ -144,59 +150,32 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="cell">
-<div class="cell-output-display">
-<div class="kable-table">
-<table class="caption-top table table-sm table-striped small">
-<thead>
-<tr class="header">
-<th style="text-align: left;"></th>
-<th style="text-align: left;">ECO_NAME</th>
-<th style="text-align: left;">EcoRegion</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">1</td>
-<td style="text-align: left;">N.Cascades</td>
-<td style="text-align: left;">M242D</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">2</td>
-<td style="text-align: left;">W.Cascades</td>
-<td style="text-align: left;">M242B</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">6</td>
-<td style="text-align: left;">Puget Tr.</td>
-<td style="text-align: left;">242A</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">89</td>
-<td style="text-align: left;">E.Cascades</td>
-<td style="text-align: left;">M242C</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">116</td>
-<td style="text-align: left;">Columbia B.</td>
-<td style="text-align: left;">342I</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">160</td>
-<td style="text-align: left;">Ok. High</td>
-<td style="text-align: left;">M333A</td>
-</tr>
-</tbody>
-</table>
+<p><strong>I will continue to add to this section leading up to the Symposium. If I can, I will add colors for each species.</strong></p>
+<section id="forward" class="level1">
+<h1>Forward</h1>
+<p>Results on the poster were curated to improve readability. The bar-charts displaying the variation in seedling counts were filtered to remove the exceptionally high counts. We have an ongoing problem of imputing high seedling counts. This effects very few plots, but it makes the graphs hard to read. Each ecoregion’s results will display the graphs presented on the poster followed by the raw bar-chart, a plot that includes more species and a brief explanation. Also worthy of note, these graphs were made using the holdout data from the yaImpute function. They do not, as of now, show the observed data from our holdout set of test data. I will try to include the test set once I have everything in place.</p>
+<p><strong>Please recommend other charts/Results to show.</strong></p>
+<p>Below is a map showing the approximate FIA plot locations within the six ecoregions for which we are developing models. The drop down box in the upper right, labelled “On this page”, will quickly navigate between the map and each ecoregion’s results. It can be seen in the map that there are very few plots in the Columbia Basin and relatively few in Puget Trough. The small number of plots in these regions result in extremely variable seedling counts. For this reason, the Columbia Basin graphs were left out of the poster. Currently, we do not have plans for dealing with this. Thoughts or suggestions would be appreciated and contact info can be found on the Home tab.</p>
+</section>
+<section id="ecoregion-map" class="level1 page-columns page-full">
+<h1>EcoRegion Map</h1>
+<div class="page-columns page-full">
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="./Images/Eco_region_map.png" class="img-fluid figure-img column-page"></p>
+<figcaption>Poster</figcaption>
+</figure>
 </div>
 </div>
-</div>
+</section>
 <section id="north-cascades" class="level1 page-columns page-full">
 <h1>North Cascades</h1>
+<section id="plots-with-or-without-regeneration" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="plots-with-or-without-regeneration">Plots With or Without Regeneration</h2>
 <div>
 
 </div>
-<div class="cell column-screen-inset quarto-layout-panel" data-layout-ncol="2">
+<div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="Results_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="960"></p>
@@ -206,13 +185,29 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+<p>On the right, we can see that most species are present in very few plots. There were about twelve species with appreciably large representations in the data.</p>
+<p>The species on the left do appear to match the most prevalent species on the right. This is because the most prevalent species list was taken from the full input data list. These charts only show data for the roughly 400 plots that yaImpute withheld for testing. Of the roughly 400 plots in the holdout set, about 325 had at least one seedling (Total) observed and slightly fewer were imputed to have at least one of any species.</p>
 </section>
-<section id="west-cascades" class="level1 page-columns page-full">
-<h1>West Cascades</h1>
+<section id="variation-in-seedling-counts" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="variation-in-seedling-counts">Variation in Seedling Counts</h2>
 <div>
 
 </div>
-<div class="cell column-screen-inset quarto-layout-panel" data-layout-ncol="2">
+<div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="Results_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="960"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="Results_files/figure-html/unnamed-chunk-7-2.png" class="img-fluid" width="960"></p>
+</div>
+</div>
+</div>
+<p>The graph on the right shows the same species as that on the left, but without filtering the extreme values. The 4 plots with counts exceeding 20,000 Trees per Acre were removed were removed to show variability in the majority of the data.</p>
+<div>
+
+</div>
+<div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="Results_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="960"></p>
@@ -222,13 +217,15 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+<p>Again, the plot on the right shows variability in seedling counts, but this time for all species. It is displayed mostly for the purpose of full disclosure. The plot on the left is the same, except the 4 high TPA plots were filtered out. The plot on the left shows somewhat mixed results. There are a few that appear to have relatively close distributions. However PICO, Lodgepole Pine, stands out with largest dependency between Imputed and Observed data.</p>
 </section>
-<section id="okanogan-highlands" class="level1 page-columns page-full">
-<h1>Okanogan Highlands</h1>
+</section>
+<section id="west-cascades" class="level1 page-columns page-full">
+<h1>West Cascades</h1>
 <div>
 
 </div>
-<div class="cell column-screen-inset quarto-layout-panel" data-layout-ncol="2">
+<div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="Results_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="960"></p>
@@ -239,18 +236,12 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="east-cascades" class="level1 page-columns page-full">
-<h1>East Cascades</h1>
+<section id="okanogan-highlands" class="level1 page-columns page-full">
+<h1>Okanogan Highlands</h1>
 <div>
 
 </div>
-<div class="cell column-screen-inset quarto-layout-panel" data-layout-ncol="2">
-
-</div>
-<div>
-
-</div>
-<div class="cell column-screen-inset quarto-layout-panel" data-layout-ncol="2">
+<div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="Results_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid" width="960"></p>
@@ -261,12 +252,18 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="puget-trough" class="level1 page-columns page-full">
-<h1>Puget Trough</h1>
+<section id="east-cascades" class="level1 page-columns page-full">
+<h1>East Cascades</h1>
 <div>
 
 </div>
-<div class="cell column-screen-inset quarto-layout-panel" data-layout-ncol="2">
+<div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
+
+</div>
+<div>
+
+</div>
+<div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="Results_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="960"></p>
@@ -277,18 +274,34 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </section>
-<section id="columbia-basin" class="level1 page-columns page-full">
-<h1>Columbia Basin</h1>
+<section id="puget-trough" class="level1 page-columns page-full">
+<h1>Puget Trough</h1>
 <div>
 
 </div>
-<div class="cell column-screen-inset quarto-layout-panel" data-layout-ncol="2">
+<div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
 <div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="Results_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="960"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <p><img src="Results_files/figure-html/unnamed-chunk-16-2.png" class="img-fluid" width="960"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="columbia-basin" class="level1 page-columns page-full">
+<h1>Columbia Basin</h1>
+<div>
+
+</div>
+<div class="cell column-page quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="Results_files/figure-html/unnamed-chunk-18-1.png" class="img-fluid" width="960"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="Results_files/figure-html/unnamed-chunk-18-2.png" class="img-fluid" width="960"></p>
 </div>
 </div>
 </div>
