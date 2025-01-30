@@ -130,7 +130,7 @@
     "href": "Results.html#variation-all-species-5",
     "title": "Forward",
     "section": "Variation, All species",
-    "text": "Variation, All species"
+    "text": "Variation, All species\n\n\n\n\n\n\n\n\n\n\n# Presence of regeneration plot Most prevalent species\n\n# df2 %&gt;% filter(Species %in% spp[sp_start:sp_end] & Zero == \"TPA &gt; 0\") %&gt;% \n#   ggplot() +\n#   aes(x = factor(Species, spp[sp_start:sp_end]), \n#         # Species[order(match(Species, spp[sp_start:sp_end]))], \n#       fill = Observed, group = Observed) +\n#   geom_bar(position = \"dodge\") +\n#   theme_minimal() +\n#   # facet_wrap(\"Zero\") + \n#   labs(\n#     title = \"Regeneration Present, Plots with  Regeneration\", \n#     subtitle = str_c(\"n Plots withheld for testing in \", ecoregions[ls_pos], \" = \", n_plots)) + \n#   ylab(\"Count of Plots with regeneration\") +\n#     xlab(str_c(sp_end, \" Most prevalent Species\")) + \n#   theme(text = element_text(size = sz), axis.text.x = element_text(angle = 90, hjust = 1))"
   },
   {
     "objectID": "Methods.html",
